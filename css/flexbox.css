@@ -9,7 +9,17 @@
 }
 
 
-/******footer****/
+
+
+/******Course map****/
+.rodapePrincipal-navMap-list{
+    display: flex;
+    flex-direction:column;
+    height: 260px;
+    flex-wrap: wrap;
+}
+
+/******Footer****/
 .rodapePrincipal-patrocinadores .container{
     display: flex;
     justify-content: space-between;
