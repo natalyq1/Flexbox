@@ -18,6 +18,17 @@
     width: 23%;
 }
 
+/******Video section****/
+.videoSobre .container{
+    display: flex;
+    align-items: center;
+}
+.videoSobre-sobre{
+    margin-left: 10%;
+    align-items: center;
+
+}
+
 
 /******Course map****/
 .rodapePrincipal-navMap-list{
