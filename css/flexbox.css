@@ -8,7 +8,15 @@
     display: flex;
 }
 
-
+/******Our courses****/
+.contenidoPrincipal-cursos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenidoPrincipal-cursos-link{
+    display: flex;
+    width: 23%;
+}
 
 
 /******Course map****/
