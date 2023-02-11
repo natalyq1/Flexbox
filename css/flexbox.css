@@ -13,6 +13,7 @@
     display: flex;
     flex-wrap: wrap;
 }
+
 .contenidoPrincipal-cursos-link{
     display: flex;
     width: 23%;
@@ -23,10 +24,10 @@
     display: flex;
     align-items: center;
 }
+
 .videoSobre-sobre{
     margin-left: 10%;
     align-items: center;
-
 }
 
 
@@ -58,4 +59,58 @@
 
 .rodapePrincipal-contatoForm-fieldset{
     display: flex;
+}
+
+/*******Responsive*********/
+@media (max-width:768px){
+
+.headerPrincipal .container{
+    flex-direction: column;
+    align-items: initial;
+}
+.headerPrincipal-nav{
+    flex-direction: column;
+    text-align: center;
+}
+
+/******Our courses****/
+.contenidoPrincipal-cursos{
+    flex-direction: column;
+}
+.contenidoPrincipal-cursos-link{
+    width: 100%;
+}
+
+/******Video section****/
+.videoSobre .container{
+    flex-direction: column;
+}
+.videoSobre-sobre{
+    margin: 4% 0 ;
+    font-size: 12pt;
+}
+
+/******Course map****/
+.rodapePrincipal-navMap-list{
+    height: auto;
+    margin-left: 5%;
+    flex-wrap: nowrap;
+}
+
+/******Footer****/
+.rodapePrincipal-patrocinadores .container{
+    flex-direction: column;
+}
+
+.rodapePrincipal-patrocinadores-list{
+    width: 100%;
+}
+
+.rodapePrincipal-contatoForm{
+    width: 100%;
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+    justify-content: center;
+}
 }
