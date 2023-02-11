@@ -26,10 +26,17 @@
 }
 
 .videoSobre-sobre{
+    display: flex;
+    flex-direction: column;
     margin-left: 10%;
     align-items: center;
+    text-align: center;
 }
 
+.videoSobre-video{
+    flex-grow: 2;
+    flex-shrink: 1;
+}
 
 /******Course map****/
 .rodapePrincipal-navMap-list{
@@ -71,6 +78,9 @@
 .headerPrincipal-nav{
     flex-direction: column;
     text-align: center;
+}
+.headerPrincipal-nav-link-app{
+    order: -1;
 }
 
 /******Our courses****/
